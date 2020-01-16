@@ -1,5 +1,5 @@
 # python-tilemap3
-python-tilemap3: python interface  to tilemap3 (above python3.0).
+python-tilemap3 (above python3.0): python interface  to [tilemap3](https://landweb.nascom.nasa.gov/developers/tilemap/tilemap3_r4_0.tar) .
 
 # Overview
 Tilemap3 program maps between geographic coordinates and various grids used by the
