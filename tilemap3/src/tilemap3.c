@@ -162,7 +162,7 @@ TilePixelCoord To_TilePixelCoordinate(char *proj, char *pixel_size, double lat, 
   Tile_loc tile_loc;
   TilePixelCoord coord;
 
-  tile_loc = tilemap3(6, proj, pixel_size, "fwd", "tp", lon, lat);
+  tile_loc = tilemap3(6, proj, pixel_size, "fwd", "tp", lat, lon);
 
   coord.vert_tile  = tile_loc.itile_line;
   coord.horiz_tile = tile_loc.itile_samp;
